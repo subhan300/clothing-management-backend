@@ -1,0 +1,57 @@
+// Customer Dashboard
+employee 
+1. s.no
+2. name
+3. dress size
+4. dress image
+5. shoe size
+6. Budget text box
+7. order -> button to add order
+
+order 
+1. table
+
+request Budget
+table
+1. sno
+2. name
+3. request Budget
+4. switch button
+5. input budget text box
+
+// Admin Dashboard
+same dashboard screen
+same order screen
+product page consist of form 
+product name
+product image
+category
+button submit order
+
+// login and signup page
+
+// landing page
+import React, { useState } from 'react';
+
+function ImageRow() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  function selectImage(image) {
+    setSelectedImage(image);
+  }
+
+  return (
+    <div className="flex justify-center items-center relative">
+      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+        {selectedImage && (
+          <svg className="w-8 h-8 text-green-500">
+            <circle cx="4" cy="4" r="3" fill="currentColor" />
+          </svg>
+        )}
+      </div>
+      <img src="image1.jpg" className={`h-auto max-w-full rounded-lg m-2 cursor-pointer select-none ${selectedImage === 'image1.jpg' ? 'border-4 border-blue-500 ring ring-blue-500' : ''}`} onClick={() => selectImage('image1.jpg')} />
+      <img src="image2.jpg" className={`w-32 h-32 rounded-full m-2 cursor-pointer select-none ${selectedImage === 'image2.jpg' ? 'border-4 border-blue-500 ring ring-blue-500' : ''}`} onClick={() => selectImage('image2.jpg')} />
+      <img src="image3.jpg" className={`w-32 h-32 rounded-full m-2 cursor-pointer select-none ${selectedImage === 'image3.jpg' ? 'border-4 border-blue-500 ring ring-blue-500' : ''}`} onClick={() => selectImage('image3.jpg')} />
+    </div>
+  );
+}

@@ -1,0 +1,12 @@
+.input_size_div_drawer{
+    display: flex;
+
+}
+.input_size_drawer{
+    background-color: white;
+    width:70px !important;
+    color: black;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-left: 6px;
+}

@@ -1,0 +1,40 @@
+/* .input_size_div{
+   
+    display: flex;
+    justify-content: center;
+    gap: .67rem !important;
+   
+}
+.input_size_div{
+    display: flex;
+
+}
+
+.input_size_div>span{
+    font-size: 12px;
+}
+.input_size_div>input{
+    text-align: center;
+
+}
+.input_size{
+    background-color: black;
+    width:46px;
+    margin: auto auto;
+
+} */
+
+.input_size_div_drawer{
+    display: flex;
+
+}
+.input_size{
+    background-color: white;
+    width:60px !important;
+    height: 25px !important;
+    color: black;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-left: 6px;
+    margin-left: 1.5px;
+}

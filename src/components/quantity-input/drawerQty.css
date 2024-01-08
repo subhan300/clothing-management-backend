@@ -1,0 +1,14 @@
+.drawer_qty{
+    background-color: white;
+    width:72px;
+    border-radius: 4px;
+    color: black;
+}
+.drawer_qty_table{
+    background-color: white;
+    width:58px;
+    height: 20px;
+    border-radius: 4px;
+    color: black;
+    margin-left: 3px;
+}
