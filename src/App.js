@@ -69,7 +69,7 @@ function App() {
     });
    
   let url =
-    process.env.REACT_APP_LOCAL || "https://klick77.eu";
+    process.env.REACT_APP_LOCAL || "https://clothing-management-frontend.vercel.app";
 
   let routeUrl = window.location.href.replace(`${url}/`, "");
   useEffect(() => {
