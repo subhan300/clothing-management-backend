@@ -3,7 +3,7 @@ import axios from "axios";
 //  http://localhost:3977/api
 // "https://system-backend-three.vercel.app";
 // let url="http://localhost:3977/api" || "https://clothing-management-pink.vercel.app/";
-let url="https://clothing-management-pink.vercel.app/";
+let url="https://clothing-management-pink.vercel.app/api";
 
 
 export const baseURL = url;
