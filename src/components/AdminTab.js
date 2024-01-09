@@ -56,12 +56,12 @@ function AdminTab({ elements }) {
       label: 'Add Employee',
       path: 'add-employee'
     },
-    {
-      id: 9,
-      icon: <MdOutlineInventory />,
-      label: 'Inventory',
-      path: 'inventory'
-    },
+    // {
+    //   id: 9,
+    //   icon: <MdOutlineInventory />,
+    //   label: 'Inventory',
+    //   path: 'inventory'
+    // },
     {
       id: 10,
       icon: <BsImage />,

@@ -71,7 +71,7 @@ function Header() {
             className="flex items-center focus:outline-none"
           >
             <GrUserAdmin className="h-5 w-5 text-[#9B9B9B]" />
-            <h1 className="text-lg">{user?.role === "admin" ? "inhaber" : userName}</h1>
+            <h1 className="text-lg">{user?.role === "admin" ? "Admin" : userName}</h1>
             <img src={Carret} alt="carret" className="ml-2 mt-1" />
           </button>
           {dropdown === true ? (
