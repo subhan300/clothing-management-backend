@@ -20,7 +20,7 @@ function Login() {
   const [password, setPassword] = useState("");
   const [role, setRole] = useState("manager");
   let url =
-    process.env.REACT_APP_LOCAL || "https://klick77.eu";
+    process.env.REACT_APP_LOCAL || "https://clothing-management-frontend.vercel.app";
 
   const auth = useSelector((state) => state.authUser);
   const navigate = useNavigate();
